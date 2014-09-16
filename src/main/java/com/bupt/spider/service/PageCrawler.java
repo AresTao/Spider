@@ -14,6 +14,7 @@ import com.bupt.spider.exception.CrawlerException;
 import com.bupt.spider.model.ExecutorCounter;
 import com.bupt.spider.model.Url;
 import com.bupt.spider.normalizer.LinkNormalizer;
+import com.bupt.spider.queue.DelayedBlockingQueue;
 import com.bupt.spider.task.PageCrawlerExecutor;
 import com.bupt.spider.visitor.DoesNotFollowVisitedUrlVisitor;
 import com.bupt.spider.visitor.PageVisitor;

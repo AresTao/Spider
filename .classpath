@@ -13,5 +13,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/git/Spider/lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/git/Spider/lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="D:/git/Spider/lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/git/Spider/lib/log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
