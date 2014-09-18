@@ -11,7 +11,7 @@ final public class CrawlerConfigurationTest {
 
 	@Test(expected = IllegalArgumentException.class)
 	public void testThatThrowsExceptionIfBeginUrlIsEmpty() {
-		new CrawlerConfiguration("  \t   \n  ");
+		new CrawlerConfiguration("\t\n  ");
 	}
 
 	@Test(expected = IllegalArgumentException.class)
