@@ -9,7 +9,9 @@ Spider
 git clone git@github.com:AresTao/Spider.git将工程拷贝到本地
 
 右键pom.xml
+
 执行：maven build install即可完成项目构建
+
 开发人员可以使用spider-v1.0.jar进行开发
 
 未来工作：
@@ -17,6 +19,9 @@ git clone git@github.com:AresTao/Spider.git将工程拷贝到本地
 本款爬虫是参考：http://github.com/vidageek/crawler 的，但是个人认为原版的代码组织不太好，就自己重新组织了一下，并且会进一步完善。
 
 Todo:
+
 1、添加爬取网页的存储功能，个人认为存到关系型数据库不太合适，会考虑存到文本文件中；
+
 2、增加一个爬虫管理系统，实现分布式网络爬虫；
+
 3、增加爬虫的通信功能，实现爬虫系统间的数据通信，也可通过网络将网页信息传给爬虫应用。
